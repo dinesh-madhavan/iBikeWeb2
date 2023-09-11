@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: hsl(0, 0%, 100%);
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 2rem;
+    animation: fadeIn 2s;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-store,
+.coming-soon {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 10px 20px;
+    
+   
+    cursor: pointer;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+
+.app-store {
+    color: #000;
+}
+
+.app-store:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: #000;  /* Placeholder background */
+    margin: 0 auto 20px auto;
+    transition: transform 0.3s;
+}
+
+.icon:hover {
+    transform: rotate(360deg);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.app-store {
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 10px;  /* Spacing between the image and the text */
+}
+
+.appstore-img {
+    width: flex; /* Adjust based on your preference and the image's aspect ratio */
+    height: auto;
+}
+
+
+
+
+.hero-container {
+    display: flex;  /* This makes the child divs inside this container display in a row */
+    align-items: center;  /* Vertically aligns the items in the center */
+}
+
+
+
+.appstore-button {
+    max-width: 10px !important;
+}
+
+.features-button {
+    max-width: 10px !important;
+}
+.button1 {
+    margin-right: 20px; 
+    max-width: 10px !important;
+}
+.button2 {
+    margin-right: 20px !important; 
+    max-width: 10px !important;
+}
+
+.buttons-container {
+    display: flex !important;      /* This makes the child divs inside this container display in a row */
+    align-items: center !important; /* Vertically aligns the items in the center */
+}
+
+.appstore-button{
+    margin-right: 20px; /* Adds spacing between the two divs. Remove if unnecessary. */
+}
+
+.features-button {
+    margin-right:40px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.appstore-button, .features-button {
+    margin: 0 10px;
+}
+
+footer {
+    background-color: #0B1524;  /* Light grey background */
+    padding: 10px 20px;         /* Padding around the text */
+    font-family: 'Arial', sans-serif;  /* A clean and simple font */
+    font-size: 14px;            /* Modest font size */
+    text-align: center;         /* Center the text */
+    color: #ffffff;                /* Dark grey color for text */
+}
+
+/* A bit of space between the two lines */
+footer p:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.learn-more-btn {
+    margin-left: 20px;
+}
+
+.learn-btn {
+    min-width: fit-content;
+    max-width: fit-content;
+    margin-left: 100px;
+    padding:auto;
+
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* For spacing between hero-copy and the Learn More button */
+}
+
+.hero-copy {
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    top: -150px; /* Adjust this value to your preference */
+    right:-90px;
+    
+}
+
+
+.learn-more {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hero-title {
+    margin-right:8px;
+    margin-bottom: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 45px; /* example size */
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.section-title {
+
+  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 45px; /* example size */
+    font-weight: bold;
+
+}
